@@ -19,6 +19,7 @@ fun main() {
 
 fun getName2(p1Call: (Params1) -> Unit) {
     Thread.sleep(2000)
+//    p1Call.invoke(Params1("sxq"))
     p1Call(Params1("sxq"))
 }
 
